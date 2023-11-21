@@ -12,7 +12,7 @@ const Footer = () => {
         <form>
           <input type="email" placeholder="enter your email start" />
           <button>
-            Submit <i class="fa-solid fa-arrow-right"></i>
+            Submit <i className="fa-solid fa-arrow-right"></i>
           </button>
         </form>
         <div className="text">

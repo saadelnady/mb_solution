@@ -7,8 +7,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<></>} />
+        <Route path="/mb_solution" element={<Home />} />
       </Routes>
     </BrowserRouter>
   );

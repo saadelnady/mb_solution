@@ -43,7 +43,7 @@ const Portfolio = () => {
           </ul>
           <a href="#more" className="more">
             see more
-            <i class="fa-solid fa-arrow-right"></i>
+            <i className="fa-solid fa-arrow-right"></i>
           </a>
         </div>
         <div className="our-projects">

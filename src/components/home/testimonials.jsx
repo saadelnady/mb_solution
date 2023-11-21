@@ -58,7 +58,7 @@ const Testimonials = () => {
         </p>
         <a href="#getstart">
           Getstarted
-          <i class="fa-solid fa-arrow-right"></i>
+          <i className="fa-solid fa-arrow-right"></i>
         </a>
       </div>
     </div>

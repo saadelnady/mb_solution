@@ -43,7 +43,7 @@ const Services = () => {
             demo, plugin or template in a matter of seconds.
           </p>
           <a href="#learn-more">
-            learn more <i class="fa-solid fa-arrow-right"></i>
+            learn more <i cla="fa-solid fa-arrow-right"></i>
           </a>
         </div>
       </div>

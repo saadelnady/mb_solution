@@ -10,7 +10,7 @@ const Header = () => {
         <img src={logo} alt="" className="logo" />
       </a>
       <ul className={`links ${active ? "active" : "inactive"}`}>
-        <i class="fa-solid fa-xmark close"></i>
+        <i className="fa-solid fa-xmark close"></i>
         <li>
           <span>01</span>
           <a href="#Home"> Home </a>
@@ -43,7 +43,7 @@ const Header = () => {
         <p>Let'sChat</p>
       </div>
       <i
-        class="fa-solid fa-bars bar"
+        className="fa-solid fa-bars bar"
         onClick={() => {
           setActive(!active);
         }}
