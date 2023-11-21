@@ -1,0 +1,121 @@
+.services .our-services {
+  padding: 50px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+@media (width < 768px) {
+  .services {
+    flex-direction: column;
+  }
+}
+.services .our-services img {
+  margin-bottom: 10px;
+}
+.services .our-services div {
+  text-align: center;
+  width: calc(50% / 4);
+}
+@media (width < 768px) {
+  .services .our-services div {
+    width: 90%;
+    margin-bottom: 20px;
+  }
+}
+.services .our-services h4 {
+  color: #000;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.services .our-services p {
+  color: #464646;
+  line-height: 1.5;
+}
+.services .values {
+  padding: 50px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 768px) {
+  .services .values {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+.services .values img {
+  max-width: 100%;
+}
+.services .values .text {
+  width: 40%;
+  margin-left: 60px;
+}
+.services .values .text p:first-child {
+  font-size: 13px;
+}
+.services .values .text p:last-of-type {
+  color: #4b4b4b;
+  font-size: 15px;
+  line-height: 1.6;
+}
+.services .values .text h3 {
+  color: #010f2e;
+  margin: 16px 0;
+  font-size: 30px;
+}
+@media (max-width: 768px) {
+  .services .values .text {
+    width: 100%;
+    margin: 0;
+  }
+}
+.services .values .text a {
+  display: block;
+  width: fit-content;
+  margin-top: 40px;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+@media (max-width: 768px) {
+  .services .values .text a {
+    margin: 30px auto;
+  }
+}
+.services .values .text a img {
+  width: 20px;
+}
+.services .links {
+  margin: 40px auto;
+  padding: 10px;
+  border-radius: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #eee;
+  width: 80%;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+}
+.services .links a {
+  display: block;
+  margin: 14px 10px 14px 0;
+  color: #033350;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+.services .links a.active {
+  color: #ff541b;
+}
+.services .links li:hover a {
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+}

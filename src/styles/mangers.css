@@ -1,0 +1,78 @@
+.mangers .card-one {
+  background-image: url("../images/mangers_card_1.png");
+}
+.mangers .card-two {
+  background-image: url("../images/mangers_card_2.png");
+}
+.mangers .card-three {
+  background-image: url("../images/mangers_card_3.png");
+}
+
+.mangers {
+  width: 80%;
+  margin: auto;
+  padding: 50px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.mangers > div {
+  width: calc(90% / 3);
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 20px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.mangers > div::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(360deg, #000 0%, rgba(0, 0, 0, 0) 100%);
+  left: -100%;
+  transition: 0.6s;
+  -webkit-transition: 0.6s;
+  -moz-transition: 0.6s;
+  -ms-transition: 0.6s;
+  -o-transition: 0.6s;
+  display: none;
+}
+.mangers > div:hover::before {
+  left: 0;
+  display: block;
+}
+.mangers > div > p {
+  background-color: #fff;
+  width: fit-content;
+  padding: 10px 15px;
+  margin: 20px 0 0 20px;
+}
+.mangers > div .content {
+  margin: 0 20px 20px 20px;
+  position: relative;
+}
+.mangers > div .content p {
+  color: #f1f1f1;
+  font-weight: normal;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+.mangers > div .content {
+  color: #ffffff;
+}
+
+@media (max-width: 992px) {
+  .mangers > div {
+    width: calc(90% / 2);
+  }
+}
+@media (max-width: 768px) {
+  .mangers > div {
+    width: 95%;
+  }
+}
