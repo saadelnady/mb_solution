@@ -8,13 +8,13 @@ const Contacts = () => {
   return (
     <div className="contacts-parent">
       <div className="social">
-        <a href="">
+        <a href="/">
           <img src={linkedIn} alt="" />
         </a>
-        <a href="">
+        <a href="/">
           <img src={twitter} alt="" />
         </a>
-        <a href="">
+        <a href="/">
           <img src={facebook} alt="" />
         </a>
       </div>{" "}

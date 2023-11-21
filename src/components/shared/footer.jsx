@@ -30,75 +30,75 @@ const Footer = () => {
         <ul className="projects">
           <h3>PROJECTS</h3>
           <li>
-            <a href="">Home </a>
+            <a href="/">Home </a>
           </li>
           <li>
-            <a href=""> Product </a>
+            <a href="/"> Product </a>
           </li>
           <li>
-            <a href=""> Customers </a>
+            <a href="/"> Customers </a>
           </li>
           <li>
-            <a href=""> Pricing</a>
+            <a href="/"> Pricing</a>
           </li>
         </ul>
         <ul className="about-us">
           <h3>ABOUT US</h3>
           <li>
-            <a href=""> Company</a>
+            <a href="/"> Company</a>
           </li>
           <li>
-            <a href="">Careers </a>
+            <a href="/">Careers </a>
           </li>
           <li>
-            <a href="">Press </a>
+            <a href="/">Press </a>
           </li>
           <li>
-            <a href=""> media</a>
+            <a href="/"> media</a>
           </li>
           <li>
-            <a href=""> Our Blog</a>
+            <a href="/"> Our Blog</a>
           </li>
         </ul>
         <ul className="contribute">
           <h3>CONTRIBUTE</h3>
           <li>
-            <a href=""> Management</a>
+            <a href="/"> Management</a>
           </li>
           <li>
-            <a href="">Reporting </a>
+            <a href="/">Reporting </a>
           </li>
           <li>
-            <a href=""> Tracking</a>
+            <a href="/"> Tracking</a>
           </li>
           <li>
-            <a href="">Subscribe </a>
+            <a href="/">Subscribe </a>
           </li>
         </ul>
         <ul className="cases">
           <h3>CASES</h3>
 
           <li>
-            <a href=""> Home</a>
+            <a href="/"> Home</a>
           </li>
           <li>
-            <a href=""> Product </a>
+            <a href="/"> Product </a>
           </li>
           <li>
-            <a href=""> Customers </a>
+            <a href="/"> Customers </a>
           </li>
           <li>
-            <a href=""> Pricing</a>
+            <a href="/"> Pricing</a>
           </li>
         </ul>
         <div className="social-icons">
-          <a href="">
+          <a href="/">
             <img src={linkedIn} alt="" />
           </a>
-          <a href="">
+          <a href="/">
             <img src={twitter} alt="" />
           </a>{" "}
-          <a href="">
+          <a href="/">
             <img src={facebook} alt="" />
           </a>
         </div>

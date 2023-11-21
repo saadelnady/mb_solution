@@ -5,7 +5,7 @@ import ic_mobile_app from "../../images/ic_mobile_app_sign.png";
 import ic_seo_analysis from "../../images/ic_seo_analysis.png";
 import ic_copy_write from "../../images/ic_copy_write.png";
 import bg_social_marketing from "../../images/bg_social_marketing.png";
-import ic_blue_arrow_right from "../../images/ic_blue_arrow_right.png";
+
 const Services = () => {
   return (
     <div className="services">
@@ -49,18 +49,18 @@ const Services = () => {
       </div>
       <ul className="links">
         <li>
-          <a href="#" className="active">
+          <a href="/" className="active">
             Digital Solution
           </a>
         </li>
         <li>
-          <a href="#">Commerce Systems</a>
+          <a href="/">Commerce Systems</a>
         </li>
         <li>
-          <a href="#">Web Development</a>
+          <a href="/">Web Development</a>
         </li>
         <li>
-          <a href="#">Mobile Apps</a>
+          <a href="/">Mobile Apps</a>
         </li>
       </ul>
     </div>
